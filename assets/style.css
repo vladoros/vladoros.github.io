@@ -42,7 +42,7 @@ ul {
     list-style: none;
     position: absolute;
     left: 50%;
-    top: 20%;
+    top: 21%;
     width: 500px;
     margin-left: -280px;
 }
@@ -51,7 +51,7 @@ ul {
     list-style: none;
     position: absolute;
     left: 50%;
-    top: 27%;
+    top: 30%;
     width: 500px;
     margin-left: -280px;
     -webkit-animation: fade 14s 1;
@@ -110,7 +110,7 @@ ul {
 
     #social {
         width: 80%;
-        margin-top: 10px;
+        margin-top: 20px;
         margin-left: -40%;
     }
 }
