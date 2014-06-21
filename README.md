@@ -1,4 +1,4 @@
-vldo.github.com
+vladoros.com
 ===============
 
 ### under construction version
