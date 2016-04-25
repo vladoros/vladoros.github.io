@@ -1,4 +1,4 @@
 vladoros.com
 ===============
 
-### under construction 
+### personal website under construction 
