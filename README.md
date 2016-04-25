@@ -1,4 +1,6 @@
 vladoros.com
 ===============
 
-### personal website under construction 
+### personal website under construction
+
+contact: hi@vladoros.com 
