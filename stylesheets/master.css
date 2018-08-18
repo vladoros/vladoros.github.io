@@ -1,20 +1,22 @@
+/* BASE STRUCTURE */
+
 body {
-    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    font-family: 'Proxima Nova', 'Helvetica', 'Arial', sans-serif;
     background-color: #fff;
     color: #000;
 }
 
 section#card {
     position: absolute;
-    bottom: 20%;
+    bottom: 12%;
     left: 12%;
-    height: 100px;
+    height: auto;
 }
 
 h1,
 h1 a:link {
-    font-size: 22px;
-    font-weight: 600;
+    font-size: 40px;
+    font-weight: 400;
     margin-bottom: 0px;
 }
 
@@ -24,30 +26,33 @@ h1 a:hover {
 
 h2 {
     margin-top: 8px;
-    font-size: 17px;
+    font-size: 27px;
     font-weight: 100;
-    line-height: 20px;
-    max-width: 400px;
+    line-height: 40px;
+    max-width: 500px;
+    color: #808080;
 }
 
 h2 a:link,
 h2 a:visited,
 h2 a:active,
 h2 a:hover {
-    border-bottom: 2px solid #ccc;
+    border-bottom: 2px solid #333;
 }
 
 ul {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
-    margin-top: 27px;
+    margin-top: 40px;
 }
 
 ul li {
     margin: 0px;
     padding: 0px;
     margin-bottom: 3px;
+    font-weight: 300;
+    color: #808080;
 }
 
 a:link,
@@ -57,7 +62,7 @@ a:active {
     color: #000;
     border: none;
     text-decoration: none;
-    font-weight: 100;
+    font-weight: 400;
 }
 
 a:hover {
@@ -65,7 +70,7 @@ a:hover {
 }
 
 ul a {
-    font-size: 14px;
-    line-height: 19px;
+    font-size: 16px;
+    line-height: 25px;
     -webkit-font-smoothing: antialiased;
 }
