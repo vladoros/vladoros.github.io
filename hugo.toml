@@ -1,0 +1,9 @@
+baseURL = "https://vladoros.com/"
+locale = "en"
+title = "Vlad Oros"
+disableKinds = ["taxonomy", "term", "404"]
+enableRobotsTXT = true
+disableHugoGeneratorInject = true
+
+[outputFormats.rss]
+baseName = "rss"

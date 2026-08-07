@@ -1,0 +1,11 @@
+{{- $normalize := resources.Get "css/normalize.css" | minify | fingerprint }}
+{{- $master := resources.Get "css/master.css" | minify | fingerprint }}
+<meta charset="utf-8">
+<title>{{ .Site.Title }}</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="{{ .Params.description }}" />
+<link href="{{ $normalize.RelPermalink }}" media="all" rel="stylesheet" integrity="{{ $normalize.Data.Integrity }}" />
+<link href="{{ $master.RelPermalink }}" media="all" rel="stylesheet" integrity="{{ $master.Data.Integrity }}" />
+{{- with .OutputFormats.Get "rss" }}
+<link rel="alternate" type="{{ .MediaType.Type }}" href="{{ .Permalink }}" title="{{ $.Site.Title }}" />
+{{- end }}

@@ -1,0 +1,11 @@
+{{ define "main" }}
+    <section id="card">
+        <h1><a href="{{ .Params.homeURL }}">{{ .Site.Title }}</a></h1>
+        <h2>{{ .Params.tagline }}</h2>
+        <ul id="contact">
+            {{- range .Params.contact }}
+            <li>{{ .label }} <a href="{{ .href }}">{{ .text }}</a></li>
+            {{- end }}
+        </ul>
+    </section>
+{{ end }}
