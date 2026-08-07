@@ -1,7 +1,7 @@
 baseURL = "https://vladoros.com/"
 locale = "en"
 title = "Vlad Oros"
-disableKinds = ["taxonomy", "term", "404"]
+disableKinds = ["taxonomy", "term"]
 enableRobotsTXT = true
 disableHugoGeneratorInject = true
 
